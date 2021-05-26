@@ -5,32 +5,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href='./style.css'>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
   <title>Frontend Mentor | Stats preview card component</title>
 </head>
 
-<body>
-  <main>
+<body class='bg-background h-screen flex justify-center items-center flex-col'>
+  <!-- card container -->
+  <main class='px-5 '>
     <!-- text content container -->
-    <div>
+    <div class='bg-cardBackground text-center font-inter p-10 rounded-md'>
       <!-- heading -->
-      <h1>Get insights that help your business grow.</h1>
-      <p> Discover the benefits of data analytics and make better decisions regarding revenue, customer
+      <h1 class='text-textWhite font-inter font-bold text-3xl'>Get <span class='text-accent'>insights</span> that
+        help
+        your
+        business
+        grow.
+      </h1>
+      <!-- paragraph -->
+      <p class='text-transWhite1 font-inter mt-4 text-sm w-11/12 m-auto max-w-md'> Discover the benefits of data
+        analytics and
+        make
+        better
+        decisions
+        regarding revenue,
+        customer
         experience, and overall efficiency.
       </p>
       <!-- stats -->
-      <div>
+      <div class='mt-8'>
         <div>
-          <p>10k+</p>
-          <p>companies</p>
+          <p class='text-textWhite text-xl font-bold'>10k+</p>
+          <p class='text-transWhite2 uppercase text-xs'>companies</p>
         </div>
-        <div>
-          <p>314</p>
-          <p>templates</p>
+        <div class='mt-5'>
+          <p class='text-textWhite text-xl font-bold'>314</p>
+          <p class='text-transWhite2 uppercase text-xs'>templates</p>
         </div>
-        <div>
-          <p>12m+</p>
-          <p>queries</p>
+        <div class='mt-5'>
+          <p class='text-textWhite text-xl font-bold'>12M+</p>
+          <p class='text-transWhite2 uppercase text-xs'>queries</p>
         </div>
       </div>
     </div>
@@ -38,9 +54,10 @@
     <div></div>
   </main>
 
-  <footer>
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://adam-mann.co/">Adam Mann</a>.
+  <footer class='text-center text-textWhite mt-4'>
+    Challenge by <a class='text-accent' href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+      Mentor</a>.
+    Coded by <a class='text-accent' href="https://adam-mann.co/">Adam Mann</a>.
   </footer>
 </body>
 
