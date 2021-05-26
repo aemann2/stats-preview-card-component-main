@@ -1889,6 +1889,14 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
+.bg-hero-mobile {
+  background-image: url('../images/image-header-mobile.jpg');
+}
+
+.bg-hero-desktop {
+  background-image: url('../images/image-header-desktop.jpg');
+}
+
 .from-background {
   --tw-gradient-from: hsl(233, 47%, 7%);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(9.460500000000001, 11.418049999999994, 26.2395, 0));
@@ -18794,6 +18802,14 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .sm\:bg-hero-mobile {
+    background-image: url('../images/image-header-mobile.jpg');
+  }
+
+  .sm\:bg-hero-desktop {
+    background-image: url('../images/image-header-desktop.jpg');
+  }
+
   .sm\:from-background {
     --tw-gradient-from: hsl(233, 47%, 7%);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(9.460500000000001, 11.418049999999994, 26.2395, 0));
@@ -35619,6 +35635,14 @@ video {
 
   .md\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-hero-mobile {
+    background-image: url('../images/image-header-mobile.jpg');
+  }
+
+  .md\:bg-hero-desktop {
+    background-image: url('../images/image-header-desktop.jpg');
   }
 
   .md\:from-background {
@@ -52448,6 +52472,14 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .lg\:bg-hero-mobile {
+    background-image: url('../images/image-header-mobile.jpg');
+  }
+
+  .lg\:bg-hero-desktop {
+    background-image: url('../images/image-header-desktop.jpg');
+  }
+
   .lg\:from-background {
     --tw-gradient-from: hsl(233, 47%, 7%);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(9.460500000000001, 11.418049999999994, 26.2395, 0));
@@ -69275,6 +69307,14 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .xl\:bg-hero-mobile {
+    background-image: url('../images/image-header-mobile.jpg');
+  }
+
+  .xl\:bg-hero-desktop {
+    background-image: url('../images/image-header-desktop.jpg');
+  }
+
   .xl\:from-background {
     --tw-gradient-from: hsl(233, 47%, 7%);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(9.460500000000001, 11.418049999999994, 26.2395, 0));
@@ -86100,6 +86140,14 @@ video {
 
   .\32xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-hero-mobile {
+    background-image: url('../images/image-header-mobile.jpg');
+  }
+
+  .\32xl\:bg-hero-desktop {
+    background-image: url('../images/image-header-desktop.jpg');
   }
 
   .\32xl\:from-background {

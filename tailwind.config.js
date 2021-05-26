@@ -15,6 +15,10 @@ module.exports = {
         inter: ['Inter', 'sans-serif'],
         lexendDeca: ['"Lexend Deca"', 'sans-serif'],
       },
+      backgroundImage: (theme) => ({
+        'hero-mobile': "url('../images/image-header-mobile.jpg')",
+        'hero-desktop': "url('../images/image-header-desktop.jpg')",
+      }),
     },
   },
   variants: {
