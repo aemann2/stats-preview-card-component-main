@@ -9,7 +9,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href='./style.css'>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <title>Frontend Mentor | Stats preview card component</title>
+  <title>Stats preview card component</title>
 </head>
 
 <body class='bg-background h-screen flex justify-center items-center flex-col'>
@@ -17,30 +17,18 @@
   <main class='mt-60 px-5 py-10 flex flex-col-reverse md:flex-row md:mt-0'>
     <!-- text content container -->
     <div
-      class='bg-cardBackground text-center font-inter p-7 rounded-br-md rounded-bl-md md:rounded-tl-md md:rounded-br-none md:text-left md:flex-1 md:p-12'>
+      class='bg-cardBackground text-center font-inter p-7 rounded-br-md rounded-bl-md md:rounded-tl-md md:rounded-br-none md:text-left md:flex-1 md:p-16'>
       <!-- heading -->
       <h1 class='text-textWhite font-inter font-bold text-3xl md:mb-6 md:w-5/6 md:m-auto'>Get <span
-          class='text-accent'>insights</span>
-        that
-        help
-        your
-        business
-        grow.
+          class='text-accent'>insights</span> that help your business grow.
       </h1>
       <!-- paragraph -->
       <p class='text-transWhite1 font-inter mt-4 text-sm w-11/12 m-auto max-w-md md:w-5/6 md:m-auto md:mb-16'> Discover
-        the benefits
-        of data
-        analytics and
-        make
-        better
-        decisions
-        regarding revenue,
-        customer
-        experience, and overall efficiency.
+        the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall
+        efficiency.
       </p>
       <!-- stats -->
-      <div class='mt-8 md:flex md:justify-start md:space-x-10 md:w-5/6 md:m-auto'>
+      <div class='mt-8 md:flex md:justify-start md:space-x-12 md:w-5/6 md:m-auto'>
         <div>
           <p class='text-textWhite text-xl font-bold'>10k+</p>
           <p class='text-transWhite2 uppercase text-xs'>companies</p>
@@ -58,7 +46,7 @@
     <!-- // image container -->
     <div class='md:flex-1'>
       <style scoped>
-        @media (min-width: 768px) {
+        @media screen and (max-width: 767px) {
           .image {
             background: hsl(277, 64%, 61%) url('../images/image-header-mobile.jpg');
             background-size: cover;
@@ -67,7 +55,7 @@
           }
         }
 
-        @media (max-width: 768px) {
+        @media screen and (min-width: 768px) {
           .image {
             background: hsl(277, 64%, 61%) url('../images/image-header-desktop.jpg');
             background-size: cover;
@@ -76,7 +64,8 @@
           }
         }
       </style>
-      <div class='h-60 rounded-tr-md rounded-tl-md image md:w-60 md: rounded-br-md md:rounded-tl-none'>
+      <div
+        class='h-60 rounded-tr-md rounded-tl-md image md:h-full md:w-96 md:min-w-full md: rounded-br-md md:rounded-tl-none'>
       </div>
     </div>
     <!-- end image container -->
@@ -85,8 +74,7 @@
 
   <footer class='text-center text-textWhite'>
     Challenge by <a class='text-accent' href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
-      Mentor</a>.
-    Coded by <a class='text-accent' href="https://adam-mann.co/">Adam Mann</a>.
+      Mentor</a>. Coded by <a class='text-accent' href="https://adam-mann.co/">Adam Mann</a>.
   </footer>
 </body>
 
